@@ -1,0 +1,60 @@
+<div style="background-color:#493D55;" class="column col-sm-2 col-xs-1 sidebar-offcanvas" id="sidebar">
+    <ul style="color:white;" class="nav hidden-xs" id="lg-menu">
+        <li class="active">
+            <a style="color:white;" ui-sref="FMS.dashboard"><img src="/images/logo.png"></img>
+            </a>
+        </li>
+        <li class="active"><a class="text-muted" href="#">Navigation<i class="pull-right fa fa-sort-desc"></i> </a>
+        </li>
+        <hr />
+        <li style="color:white;background-color:#16A086;" class="active"><a style="color:white;" ui-sref="FMS.welcome"> welcome</a>
+        </li>
+        <li class="active"><a style="color:white;" href="#" ui-sref="FMS.quicklinks"><i class="glyphicon glyphicon-list-alt"></i> Quick Links</a>
+        </li>
+        <li style="color:white;"><a style="color:white;" href="#"><i class="glyphicon glyphicon-list"></i> Mails</a>
+        </li>
+        <li id="SmartCard"><a style="color:white;" data-toggle="collapse" data-parent="#Smartcard" href="#Smartlist" aria-expanded="true" aria-controls="Smartlist"><i class="glyphicon glyphicon-paperclip"></i> Smart Card Points<i ng-show="Smartcard" class="pull-right fa fa-minus"></i></a>
+             <ul style="list-style: none;" id="Smartlist" class="collapse success">
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.allTenent">&nbsp;&nbsp;&nbsp;&nbsp;Recharge</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.addTenent">&nbsp;&nbsp;&nbsp;&nbsp;Recharge Rules</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.spacestructure">&nbsp;&nbsp;&nbsp;&nbsp;Transfer Points</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.spacestructure">&nbsp;&nbsp;&nbsp;&nbsp;Surrender Card</a></li>
+            </ul>
+        </li>
+        <li><a style="color:white;" data-toggle="collapse" data-target="#tenent"><i class="glyphicon glyphicon-paperclip"></i> Tenent<i ng-show="tenent"class="pull-right fa fa-minus"></i></a>
+             <ul style="list-style: none;" id="tenent" class="collapse success">
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.allTenent">&nbsp;&nbsp;&nbsp;&nbsp;All Tenent</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.addTenent">&nbsp;&nbsp;&nbsp;&nbsp;Add New</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.spacestructure">&nbsp;&nbsp;&nbsp;&nbsp;Tenent Profile</a></li>
+            </ul>
+        </li>
+        <li><a style="color:white;" data-toggle="collapse" data-target="#user" ><i class="glyphicon glyphicon-refresh"></i> Users<i ng-show="user" class="pull-right fa fa-minus"></i></a>
+             <ul style="list-style: none;" id="user" class="collapse success">
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.allUsers">&nbsp;&nbsp;&nbsp;&nbsp;All User</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.addUser">&nbsp;&nbsp;&nbsp;&nbsp;Add New</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.spacestructure">&nbsp;&nbsp;&nbsp;&nbsp;User Profile</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.spacestructure">&nbsp;&nbsp;&nbsp;&nbsp;User Role Editor</a></li>
+            </ul>
+        </li>
+        <li><a style="color:white;" data-toggle="collapse" data-target="#groups"><i class="glyphicon glyphicon-refresh"></i>Groups<i ng-show="groups" class="pull-right fa fa-minus"></i></a>
+            <ul style="list-style: none;" id="groups" class="collapse success">
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.allTenent">&nbsp;&nbsp;&nbsp;&nbsp;All Groups</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.addTenent">&nbsp;&nbsp;&nbsp;&nbsp;Add Group</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" ui-sref="FMS.spacestructure">&nbsp;&nbsp;&nbsp;&nbsp;Group Configuration</a></li>
+            </ul>
+        </li>
+        <li><a style="color:white;" data-toggle="collapse" data-target="#Space"><i class="glyphicon glyphicon-refresh"></i> Space Inventory<i ng-show="Space" class="pull-right fa fa-minus"></i></a>
+            <ul style="list-style: none;" id="Space" class="collapse">
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" href="#" ui-sref="FMS.spacestructure">&nbsp;&nbsp;&nbsp;&nbsp;Space Structure</a></li>
+                <li><i class="fa fa-caret-right"></i><a style="color:white;" href="#">&nbsp;&nbsp;&nbsp;&nbsp;Space Map</a></li>
+            </ul>
+        </li>
+        <li><a style="color:white;" href="#"><i class="glyphicon glyphicon-refresh"></i> Holidays</a>
+        </li>
+        <li><a style="color:white;" href="#"><i class="glyphicon glyphicon-refresh"></i> Reward System</a>
+        </li>
+        <li><a style="color:white;" href="#"><i class="glyphicon glyphicon-refresh"></i> Configuration</a>
+        </li>
+        
+    </ul>
+</div>
